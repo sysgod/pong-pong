@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f7777c22d69df4cafb83ff2819f49d, type: 3}
+  m_Name: PongConfig
+  m_EditorClassIdentifier: 
+  Version: 0
+  ReferenceScreenHeight: 1440
+  RefenceVerticalBoundsScale: 30
+  LocalPlayerPrefab: {fileID: 2045344404427720076, guid: 06d20cc31142a7d498a092f7626a53f6,
+    type: 3}
+  BallColors:
+  - {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
+  - {r: 0.9622642, g: 0.91592467, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.6756029, a: 1}
+  - {r: 0, g: 0.75050735, b: 1, a: 1}
+  MinBallScale: 1
+  MaxBallScale: 5
+  MinBallVelocity: 20
+  MaxBallVelocity: 50
+  PaddleHitInActivityTime: 15
+  MenuScene: MainMenu
+  GameScene: pongpong
